@@ -69,31 +69,40 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
-        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li> -->
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li>
+          <a href="#hero" class="active">
+            <i class="bi bi-house navicon"></i>
+            <span data-i18n="menu_home">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <i class="bi bi-person navicon"></i>
+            <span data-i18n="menu_about">About</span>
+          </a>
+        </li>
+        <li>
+          <a href="#resume">
+            <i class="bi bi-file-earmark-text navicon"></i>
+            <span data-i18n="menu_resume">Resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio">
+            <i class="bi bi-images navicon"></i>
+            <span data-i18n="menu_portfolio">Portfolio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <i class="bi bi-envelope navicon"></i>
+            <span data-i18n="menu_contact">Contact</span>
+          </a>
+        </li>
       </ul>
     </nav>
+
+
 
   </header>
 
@@ -105,12 +114,17 @@
       <img src="assets/img/hero-bg.JPG" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Nunnapat</h2>
-        <h2>Tungjaingamsanga</h2>
-        <p>I'm looking for <span class="typed"
-            data-typed-items="Creative Content, Account Executive, Strategic Planner">Designer</span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <h2 data-i18n="hero_firstname">Nunnapat</h2>
+        <h2 data-i18n="hero_lastname">Tungjaingamsanga</h2>
+        <p data-i18n="hero_intro">
+          I'm looking for
+          <span class="typed" data-i18n-typed="hero_typed_items"
+            data-typed-items=" Creative Content , Account Executive , Strategic Planner"> 
+             Designer
+          </span>
+          <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+        </p>
+
       </div>
 
     </section><!-- /Hero Section -->
@@ -118,8 +132,8 @@
     <!-- About Section -->
     <section id="about" class="about section bg-light py-5">
       <div class="container section-title" data-aos="fade-up">
-        <h2 class="text-center mb-4">About</h2>
-        <p class="lead text-center mx-auto" style="max-width: 800px;">
+        <h2 class="text-center mb-4" data-i18n="about_title">About</h2>
+        <p class="lead text-center mx-auto" style="max-width: 800px;" data-i18n="about_intro">
           My name is Nunnapat Tungjaingamsanga (Patt), 23 years old. I graduated with a Bachelor’s degree in
           Communication Arts, majoring in Brand Communications. I am passionate about branding and integrated marketing,
           with foundational skills in strategic communication planning, consumer behavior analysis, and online brand
@@ -138,36 +152,42 @@
 
           <!-- Content -->
           <div class="col-lg-8 content" data-aos="fade-left" data-aos-delay="300">
-            <h3 class="fw-bold mb-3">Brand Communication of Communication Arts</h3>
-            <p class="fst-italic text-muted mb-4">Bangkok University</p>
+            <h3 class="fw-bold mb-3" data-i18n="about_heading">Brand Communication, Faculty Communication Arts</h3>
+            <p class="fst-italic text-muted mb-4" data-i18n="about_university">Bangkok University</p>
 
             <div class="row">
               <div class="col-md-6 mb-3">
                 <ul class="list-unstyled">
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Birthday:</strong> <span>16 April
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong
+                      data-i18n="label_birthday">Birthday:</strong> <span data-i18n="value_birthday">16 April
                       2002</span></li>
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Phone:</strong> <span>(+66) 91794
-                      1544</span></li>
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>City:</strong> <span>Nonthaburi,
-                      11000</span></li>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong data-i18n="label_phone">Phone:</strong>
+                    <span>(+66) 91794 1544</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong data-i18n="label_city">City:</strong>
+                    <span data-i18n="value_city">Nonthaburi, 11000</span>
+                  </li>
                 </ul>
               </div>
               <div class="col-md-6 mb-3">
                 <ul class="list-unstyled">
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Degree:</strong> <span>Bachelor</span>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong data-i18n="label_age">Age:</strong>
+                    <span>23</span>
                   </li>
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Email:</strong>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong data-i18n="label_degree">Degree:</strong>
+                    <span data-i18n="value_degree">Bachelor</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong data-i18n="label_email">Email:</strong>
                     <span>nunnapat.tung@gmail.com</span>
                   </li>
-                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong>Freelance:</strong>
-                    <span>Available</span>
+                  <li><i class="bi bi-chevron-right icon-primary"></i> <strong
+                      data-i18n="label_freelance">Freelance:</strong> <span data-i18n="value_freelance">Available</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <p class="mt-4 quote-box">
+            <p class="mt-4 quote-box" data-i18n="about_quote">
               <i class="bi bi-quote fs-3 me-2" style="color: #754E1A;"></i>
               I am deeply committed to building a career in marketing and branding because I believe that successful
               marketing goes beyond promoting products — it’s about understanding people, creating value, and telling
@@ -182,9 +202,11 @@
     <!-- Resume Section -->
     <section id="resume" class="resume section bg-light">
       <div class="container section-title text-center" data-aos="fade-up">
-        <h2 style="color: #754E1A;">Resume</h2>
-        <p class="text-muted">A brief overview of my educational background, work experience, and extracurricular
-          activities — showcasing my journey and passions.</p>
+        <h2 style="color: #754E1A;" data-i18n="resume_title">Resume</h2>
+        <p class="text-muted" data-i18n="resume_intro">
+          A brief overview of my educational background, work experience, and extracurricular
+          activities — showcasing my journey and passions.
+        </p>
       </div>
 
       <div class="container">
@@ -192,54 +214,61 @@
 
           <!-- Education Column -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-section-title" style="color: #A4907C;">Education</h3>
+            <h3 class="resume-section-title" style="color: #A4907C;" data-i18n="education_title">Education</h3>
 
             <div class="resume-card mb-4">
-              <h5 class="fw-bold mb-1">Bangkok University</h5>
-              <small class="text-muted">2020 - 2023 | Pathum Thani 12120</small>
-              <p class="mt-2 mb-1">Bachelor's Degree in Communication Arts</p>
-              <span class="badge" style="background-color: #C2B092; color: #333;">Brand Communication (First
-                Honor)</span>
-
+              <h5 class="fw-bold mb-1" data-i18n="edu_bu_title">Bangkok University</h5>
+              <small class="text-muted" data-i18n="edu_bu_period">2020 - 2023 | Pathum Thani 12120</small>
+              <p class="mt-2 mb-1" data-i18n="edu_bu_degree">Bachelor's Degree in Communication Arts</p>
+              <span class="badge" style="background-color: #C2B092; color: #333;" data-i18n="edu_bu_note">
+                Brand Communication (First Honor)
+              </span>
             </div>
 
             <div class="resume-card mb-4">
-              <h5 class="fw-bold mb-1">Suankularb Wittayalai Nonthaburi</h5>
-              <small class="text-muted">2014 - 2020 | Nonthaburi 11120</small>
-              <p class="mt-2 mb-1">Math - English</p>
+              <h5 class="fw-bold mb-1" data-i18n="edu_swn_title">Suankularb Wittayalai Nonthaburi</h5>
+              <small class="text-muted" data-i18n="edu_swn_period">2014 - 2020 | Nonthaburi 11120</small>
+              <p class="mt-2 mb-1" data-i18n="edu_swn_program">Math - English</p>
             </div>
           </div>
 
           <!-- Work Experience Column -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-section-title" style="color: #A4907C;">Work Experience</h3>
+            <h3 class="resume-section-title" style="color: #A4907C;" data-i18n="work_title">Work Experience</h3>
 
             <div class="resume-card mb-4">
-              <h5 class="fw-bold mb-1">Thorfun Music and Dance School</h5>
-              <small class="text-muted">2018 - 2021</small>
-              <p class="mt-2 mb-1"><strong>Position:</strong> Reception and Admin (Part-Time)</p>
+              <h5 class="fw-bold mb-1" data-i18n="work_thorfun_title">Thorfun Music and Dance School</h5>
+              <small class="text-muted" data-i18n="work_thorfun_period">2018 - 2021</small>
+              <p class="mt-2 mb-1"><strong data-i18n="label_position">Position:</strong> <span
+                  data-i18n="work_thorfun_position">Reception and Admin (Part-Time)</span></p>
               <ul class="resume-list">
-                <li>Designed promotional materials and coordinated public relations for school events.</li>
-                <li>Managed class scheduling and supported client communications.</li>
+                <li data-i18n="work_thorfun_duty1">Designed promotional materials and coordinated public relations for
+                  school events.</li>
+                <li data-i18n="work_thorfun_duty2">Managed class scheduling and supported client communications.</li>
               </ul>
             </div>
 
             <div class="resume-card mb-4">
-              <h5 class="fw-bold mb-1">Siam Makro - Sanambinnam Branch</h5>
-              <small class="text-muted">Jan 2024 - Mar 2024</small>
-              <p class="mt-2 mb-1"><strong>Position:</strong> Bakery</p>
+              <h5 class="fw-bold mb-1" data-i18n="work_makro_title">Siam Makro - Sanambinnam Branch</h5>
+              <small class="text-muted" data-i18n="work_makro_period">Jan 2024 - Mar 2024</small>
+              <p class="mt-2 mb-1"><strong data-i18n="label_position">Position:</strong> <span
+                  data-i18n="work_makro_position">Bakery</span></p>
               <ul class="resume-list">
-                <li>Handled customer service, order management, and gained exposure to corporate retail operations.</li>
+                <li data-i18n="work_makro_duty1">Handled customer service, order management, and gained exposure to
+                  corporate retail operations.</li>
               </ul>
             </div>
 
-            <h3 class="resume-section-title" style="color: #A4907C;">Extracurricular Activities</h3>
+            <h3 class="resume-section-title" style="color: #A4907C;" data-i18n="activity_title">Extracurricular
+              Activities</h3>
             <div class="resume-card mb-4">
-              <h5 class="fw-bold mb-1">Great Alaskan Holidays, Inc.</h5>
-              <small class="text-muted">May 2024 - Sep 2024</small>
-              <p class="mt-2 mb-1"><strong>Position:</strong> Housekeeper</p>
+              <h5 class="fw-bold mb-1" data-i18n="activity_alaska_title">Great Alaskan Holidays, Inc.</h5>
+              <small class="text-muted" data-i18n="activity_alaska_period">May 2024 - Sep 2024</small>
+              <p class="mt-2 mb-1"><strong data-i18n="label_position">Position:</strong> <span
+                  data-i18n="activity_alaska_position">Housekeeper</span></p>
               <ul class="resume-list">
-                <li>Participated in the "Work and Travel USA" program during Summer 2024.</li>
+                <li data-i18n="activity_alaska_duty1">Participated in the \"Work and Travel USA\" program during Summer
+                  2024.</li>
               </ul>
             </div>
           </div>
@@ -279,7 +308,7 @@
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2 class="text-center mb-4" style="color: #754E1A;">Skills</h2>
+        <h2 class="text-center mb-4" style="color: #754E1A;" data-i18n="skills_title">Skills</h2>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -288,120 +317,100 @@
           <!-- Skill Card -->
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Branding & Identity</h5>
+              <h5 data-i18n="skill_branding">Branding & Identity</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="level">Expert</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+                <span class="level" data-i18n="level_expert">Expert</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Strategic Planning</h5>
+              <h5 data-i18n="skill_planning">Strategic Planning</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Communication Skills</h5>
+              <h5 data-i18n="skill_communication">Communication Skills</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Critical Thinking</h5>
+              <h5 data-i18n="skill_thinking">Critical Thinking</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Marketing Communication</h5>
+              <h5 data-i18n="skill_marketing">Marketing Communication</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Research</h5>
+              <h5 data-i18n="skill_research">Research</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Data Analysis</h5>
+              <h5 data-i18n="skill_analysis">Data Analysis</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Data Visualization</h5>
+              <h5 data-i18n="skill_visualization">Data Visualization</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="level">Basic</span>
+                <span class="dot filled"></span><span class="dot"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_basic">Basic</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="skill-card">
-              <h5>Time Management</h5>
+              <h5 data-i18n="skill_time">Time Management</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mx-auto">
             <div class="skill-card">
-              <h5>Leadership , Teamwork</h5>
+              <h5 data-i18n="skill_teamwork">Leadership , Teamwork</h5>
               <div class="skill-dots">
-                <span class="dot filled"></span>
-                <span class="dot filled"></span>
-                <span class="dot"></span>
-                <span class="level">Proficient</span>
+                <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                <span class="level" data-i18n="level_proficient">Proficient</span>
               </div>
             </div>
           </div>
@@ -417,7 +426,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title text-center mb-5">
-          <h2 style="color: #754E1A;">Language</h2>
+          <h2 style="color: #754E1A;" data-i18n="language_title">Language</h2>
         </div>
 
         <div class="row gy-4 justify-content-center">
@@ -426,12 +435,12 @@
           <div class="col-lg-4 col-md-6">
             <div class="language-card text-center p-4 shadow-sm rounded animate__animated animate__fadeInUp">
               <i class="bi bi-headset" style="font-size: 40px; color: #754E1A;"></i>
-              <h4 class="mt-3 mb-1" style="color: #A4907C;">THAI</h4>
+              <h4 class="mt-3 mb-1" style="color: #A4907C;" data-i18n="language_thai">THAI</h4>
               <div class="language-level mt-2">
                 <span class="dot filled"></span>
                 <span class="dot filled"></span>
                 <span class="dot filled"></span>
-                <p class="mt-2 mb-0 fw-bold text-muted">Fluent</p>
+                <p class="mt-2 mb-0 fw-bold text-muted" data-i18n="language_thai_level">Fluent</p>
               </div>
             </div>
           </div>
@@ -441,12 +450,12 @@
             <div class="language-card text-center p-4 shadow-sm rounded animate__animated animate__fadeInUp"
               style="animation-delay: 0.2s;">
               <i class="bi bi-people" style="font-size: 40px; color: #754E1A;"></i>
-              <h4 class="mt-3 mb-1" style="color: #A4907C;">ENGLISH</h4>
+              <h4 class="mt-3 mb-1" style="color: #A4907C;" data-i18n="language_english">ENGLISH</h4>
               <div class="language-level mt-2">
                 <span class="dot filled"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
-                <p class="mt-2 mb-0 fw-bold text-muted">Basic</p>
+                <p class="mt-2 mb-0 fw-bold text-muted" data-i18n="language_english_level">Basic</p>
               </div>
             </div>
           </div>
@@ -460,11 +469,12 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2 class="text-center mb-4" style="color: #754E1A;">Portfolio</h2>
-        <p class="lead text-center mx-auto" style="max-width: 800px;">
+        <h2 class="text-center mb-4" style="color: #754E1A;" data-i18n="portfolio_title">Portfolio</h2>
+        <p class="lead text-center mx-auto" style="max-width: 800px;" data-i18n="portfolio_description">
           This portfolio showcases a well-rounded skill set in creative media design, spanning across Event, Product,
           Branding, Media, and Logo Design. It highlights strengths in conceptual thinking, creativity, visual
-          composition, and effective brand communication.</p>
+          composition, and effective brand communication.
+        </p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -472,12 +482,12 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-event">Event</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-media">Media</li>
-            <li data-filter=".filter-logo">Logo</li>
+            <li data-filter="*" class="filter-active" data-i18n="filter_all">All</li>
+            <li data-filter=".filter-event" data-i18n="filter_event">Event</li>
+            <li data-filter=".filter-product" data-i18n="filter_product">Product</li>
+            <li data-filter=".filter-branding" data-i18n="filter_branding">Branding</li>
+            <li data-filter=".filter-media" data-i18n="filter_media">Media</li>
+            <li data-filter=".filter-logo" data-i18n="filter_logo">Logo</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -486,11 +496,14 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/event-1.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Event 1</h4>
-                  <p>Organized the seminar “พลิกหลังกล่อง ส่องหลังแบรนด์ INGU” in collaboration with INGU และ คุณอื๊ง
-                    พลิกหลังกล่อง</p>
-                  <a href="assets/img/portfolio/event-1.png" title="Collaborated in planning and organizing a seminar on marketing and branding, taking responsibility for public relations, media design, and coordination with guest speakers. Successfully attracted over 150 participants and received positive feedback from attendees.
-" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4 data-i18n="portfolio_event1_title">Event 1</h4>
+                  <p data-i18n="portfolio_event1_desc">
+                    Organized the seminar “พลิกหลังกล่อง ส่องหลังแบรนด์ INGU” in collaboration with INGU และ คุณอื๊ง
+                    พลิกหลังกล่อง
+                  </p>
+                  <a href="assets/img/portfolio/event-1.png" title="" data-i18n-title="portfolio_event1_alt"
+                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
                   <a href="https://www.canva.com/design/DAGnEjgKei4/xph2CO4krQSXDMiTT2SgxQ/view?utm_content=DAGnEjgKei4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h08e550429d"
                     title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -501,9 +514,11 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/logo-4.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Logo 4</h4>
-                  <p>Join Program Desing Logo APHEIT</p>
-                  <a href="assets/img/portfolio/logo-4.png" title="Join Program Desing Logo APHEIT"
+                  <h4 data-i18n="portfolio_logo4_title">Logo 4</h4>
+                  <p data-i18n="portfolio_logo4_desc">Join Program Desing Logo APHEIT , Designed with Adobe Illustrator
+                  </p>
+                  <a href="assets/img/portfolio/logo-4.png" data-i18n-title="portfolio_logo4_desc"
+                    title="Join Program Desing Logo APHEIT , Designed with Adobe Illustrator"
                     data-gallery="portfolio-gallery-logo" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
                   <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -516,10 +531,13 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/event-2.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Event 2</h4>
-                  <p>Organized the event “Send to Full Sense” in collaboration with CTRL G.</p>
-                  <a href="assets/img/portfolio/event-2.png" title="Coordinated with the CTRL G team and external partners to organize both online and offline events. Took charge of public relations and designed promotional materials for social media platforms. Successfully attracted over 250 participants and received widespread positive engagement from gaming fans and esports players.
-" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4 data-i18n="portfolio_event2_title">Event 2</h4>
+                  <p data-i18n="portfolio_event2_desc">Organized the event “Send to Full Sense” in collaboration with
+                    CTRL G.</p>
+                  <a href="assets/img/portfolio/event-2.png" data-i18n-title="portfolio_event2_alt"
+                    title="Coordinated with the CTRL G team and external partners to organize both online and offline events. Took charge of public relations and designed promotional materials for social media platforms. Successfully attracted over 250 participants and received widespread positive engagement from gaming fans and esports players."
+                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
                   <a href="https://www.canva.com/design/DAGnEo2aMSY/0lmD0fNx1HaFW6qi_NUjTw/view?utm_content=DAGnEo2aMSY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf485e23105"
                     title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -530,13 +548,11 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-1.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Mockups Brand FIVEPER%</p>
-                  <a href="assets/img/portfolio/product-1.png" title="Mockups Brand FIVEPER%"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_product1_title">Product 1</h4>
+                  <p data-i18n="portfolio_product1_desc">Mockups Brand FIVEPER%</p>
+                  <a href="assets/img/portfolio/product-1.png" data-i18n-title="portfolio_product1_desc"
+                    title="Mockups Brand FIVEPER%" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -545,45 +561,10 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/branding-1.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lhong Lai Project</p>
-                  <a href="assets/img/portfolio/branding-1.png" title="🏮 Brand Overview: Building the “Lhong Lai Dimsum & Kopi” Brand
-
-“Lhong Lai Dimsum & Kopi” is a café-style dim sum brand crafted through a creative brand-building process that blends traditional Chinese cuisine with Thai cultural elements, offering a nostalgic, warm, and detail-oriented dining atmosphere.
-
-The brand is positioned to be modern yet sentimental, evoking warmth, retro charm, and a heartfelt passion for flavor and experience — connecting with the new generation of consumers who seek more than just food.
-
-🎯 Brand Building Objectives
-
-Establish a strong and unique position in a dim sum market with few direct competitors
-
-Communicate a brand image that is warm, charming, and distinct
-
-Prioritize brand experience as the core of customer engagement
-
-Meet the expectations of modern consumers who value taste, atmosphere, and attention to detail
-
-🧬 Brand DNA
-
-“Authentic Cantonese dim sum fused with Thai ingredients — served 24/7”
-A harmony of Chinese heritage, Thai craftsmanship, and café lifestyle
-
-💡 Key Brand Strengths
-
-Evokes a feeling of “Lhong Lai” (deep fondness) through food, ambiance, and service
-
-Clear and consistent brand identity through logo, colors, font, and packaging
-
-Employs storytelling and experience-based marketing
-
-Offers a membership and point-collection system to build long-term loyalty
-
-Designed for future brand expansion and franchising opportunities
-
-✨
-
-Lhong Lai is not just a dim sum restaurant — it’s a brand crafted to make people “fall in love from the very first bite,”
-backed by thoughtful branding, clear strategy, and memorable customer experiences at every touchpoint."
+                  <h4 data-i18n="portfolio_branding1_title">Branding 1</h4>
+                  <p data-i18n="portfolio_branding1_desc">Lhong Lai Project</p>
+                  <a href="assets/img/portfolio/branding-1.png" data-i18n-title="portfolio_branding1_alt"
+                    title="Brand Overview: Building the “Lhong Lai Dimsum & Kopi” Brand [...]"
                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
                   <a href="https://www.canva.com/design/DAGnEgnHESA/qBzCPmlwOD6rHKx9yNdAqw/view?utm_content=DAGnEgnHESA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h98ce7314f9"
@@ -612,13 +593,11 @@ backed by thoughtful branding, clear strategy, and memorable customer experience
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-2.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Mockups Brand FIVEPER%</p>
-                  <a href="assets/img/portfolio/product-2.png" title="Mockups Brand FIVEPER%"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_product2_title">Product 2</h4>
+                  <p data-i18n="portfolio_product2_desc">Mockups Brand FIVEPER%</p>
+                  <a href="assets/img/portfolio/product-2.png" data-i18n-title="portfolio_product2_desc"
+                    title="Mockups Brand FIVEPER%" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -627,25 +606,10 @@ backed by thoughtful branding, clear strategy, and memorable customer experience
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/branding-2.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Chaweewan Project</p>
-                  <a href="assets/img/portfolio/branding-2.png"
-                    title="Chawaveewan: Elevating Thai Natural Heritage through Creative Design
-Chawaveewan is a creative wellness brand that transforms natural loofah fibers — a traditional Thai material — into innovative self-care products by integrating them with bath bombs, creating a unique 2-in-1 bathing experience.
-
-This product addresses consumer pain points by softening the loofah through the fizzing process, adding convenience and indulgence at the same time. The result is a functional and sensorial product that not only cleanses but relaxes.
-
-By applying design thinking and cultural storytelling, Chawaveewan enhances the value of an everyday natural item through:
-
-Thoughtful product design
-
-Sensory branding through Thai-inspired scents
-
-Elegant, locally handcrafted packaging
-
-Co-branding opportunities with spas and hotels
-
-The brand represents a modern reinterpretation of Thai identity and sustainability, creating new market opportunities for traditional materials while supporting local craftsmanship and eco-conscious lifestyles."
+                  <h4 data-i18n="portfolio_branding2_title">Branding 2</h4>
+                  <p data-i18n="portfolio_branding2_desc">Chaweewan Project</p>
+                  <a href="assets/img/portfolio/branding-2.png" data-i18n-title="portfolio_branding2_alt"
+                    title="Chawaveewan: Elevating Thai Natural Heritage through Creative Design [...]"
                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
                   <a href="https://www.canva.com/design/DAGnFJ21fBc/z5hxbKzHXYJlmFewRZttsg/view?utm_content=DAGnFJ21fBc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h826a4f1d04"
@@ -673,13 +637,11 @@ The brand represents a modern reinterpretation of Thai identity and sustainabili
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-3.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Mockups Brand CHAWEEWAN</p>
-                  <a href="assets/img/portfolio/product-3.png" title="Mockups Brand CHAWEEWAN"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_product3_title">Product 3</h4>
+                  <p data-i18n="portfolio_product3_desc">Mockups Brand CHAWEEWAN</p>
+                  <a href="assets/img/portfolio/product-3.png" data-i18n-title="portfolio_product3_desc"
+                    title="Mockups Brand CHAWEEWAN" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -688,28 +650,27 @@ The brand represents a modern reinterpretation of Thai identity and sustainabili
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-4.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 4</h4>
-                  <p>Mockups Brand LHONG LAI</p>
-                  <a href="assets/img/portfolio/product-4.png" title="Mockups Brand LHONG LAI"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_product4_title">Product 4</h4>
+                  <p data-i18n="portfolio_product4_desc">Mockups Brand LHONG LAI</p>
+                  <a href="assets/img/portfolio/product-4.png" data-i18n-title="portfolio_product4_desc"
+                    title="Mockups Brand LHONG LAI" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-5.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/branding-3.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 5</h4>
-                  <p>Mockups Brand CHAWEEWAN</p>
-                  <a href="assets/img/portfolio/product-5.png" title="Mockups Brand CHAWEEWAN"
+                  <h4 data-i18n="portfolio_branding3_title">Branding 3</h4>
+                  <p data-i18n="portfolio_branding3_desc">Back Street House Project</p>
+                  <a href="assets/img/portfolio/branding-3.png" data-i18n-title="portfolio_branding3_alt"
+                    title="This project serves as a comprehensive example of brand analysis — covering everything from strategic planning, brand communication, to consumer behavior insights. All elements work together to support the goal of expanding the customer base and strengthening the brand identity of Backstreet House Pattaya in the specialty coffee market."
                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <a href="https://www.canva.com/design/DAGn-u9QQMc/QVncDuxP7XW2ga8xW4ZGeQ/view?utm_content=DAGn-u9QQMc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6612ac168e"
+                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -718,13 +679,11 @@ The brand represents a modern reinterpretation of Thai identity and sustainabili
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/logo-1.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Logo 1</h4>
-                  <p>Mockups Logo Brand LHONG LAI</p>
-                  <a href="assets/img/portfolio/logo-1.png" title="Mockups Logo Brand LHONG LAI"
-                    data-gallery="portfolio-gallery-logo" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_logo1_title">Logo 1</h4>
+                  <p data-i18n="portfolio_logo1_desc">Mockups Logo Brand LHONG LAI</p>
+                  <a href="assets/img/portfolio/logo-1.png" data-i18n-title="portfolio_logo1_desc"
+                    title="Mockups Logo Brand LHONG LAI" data-gallery="portfolio-gallery-logo"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -733,59 +692,80 @@ The brand represents a modern reinterpretation of Thai identity and sustainabili
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/logo-3.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Logo 3</h4>
-                  <p>Mockups Logo Brand FIVEPRE%</p>
-                  <a href="assets/img/portfolio/logo-3.png" title="Mockups Logo Brand FIVEPRE%"
-                    data-gallery="portfolio-gallery-logo" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a> -->
+                  <h4 data-i18n="portfolio_logo3_title">Logo 3</h4>
+                  <p data-i18n="portfolio_logo3_desc">Mockups Logo Brand FIVEPRE%</p>
+                  <a href="assets/img/portfolio/logo-3.png" data-i18n-title="portfolio_logo3_desc"
+                    title="Mockups Logo Brand FIVEPRE%" data-gallery="portfolio-gallery-logo"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
 
 
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-media">
               <div class="portfolio-content h-100">
-                <iframe class="img-fluid rounded"
-                  src="https://drive.google.com/file/d/1fHqvfRm7D1fYU2FXsTkAHr1Jf6NvhRj-/preview" width="100%"
-                  height="240" allow="autoplay">
-                </iframe>
+                <div
+                  style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 0.5rem;">
+                  <iframe class="img-fluid"
+                    src="https://drive.google.com/file/d/1fHqvfRm7D1fYU2FXsTkAHr1Jf6NvhRj-/preview"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen>
+                  </iframe>
+                </div>
                 <div class="portfolio-info">
-                  <h4>Media 1</h4>
-                  <p>Organize a series of influencer interviews to gain insights into their views on emerging digital
-                    trends and branding strategies.</p>
+                  <h4 data-i18n="portfolio_media1_title">Media 1</h4>
+                  <p data-i18n="portfolio_media1_desc">
+                    Organize a series of influencer interviews to gain insights into their views on emerging digital
+                    trends and branding strategies.
+                  </p>
                   <a href="https://drive.google.com/file/d/1fHqvfRm7D1fYU2FXsTkAHr1Jf6NvhRj-/preview"
-                    title="Organize a series of influencer interviews..." data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    data-i18n-title="portfolio_media1_desc" title="Organize a series of influencer interviews..."
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div>
 
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-5.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4 data-i18n="portfolio_product5_title">Product 5</h4>
+                  <p data-i18n="portfolio_product5_desc">Mockups Brand CHAWEEWAN</p>
+                  <a href="assets/img/portfolio/product-5.png" data-i18n-title="portfolio_product5_desc"
+                    title="Mockups Brand CHAWEEWAN" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-media">
-  <div class="portfolio-content h-100">
-    <iframe class="img-fluid rounded"
-      src="https://drive.google.com/file/d/131bV8q3HvT165GVgLRxm7jfMRZyOG44v/preview"
-      width="100%" height="240">
-    </iframe>
-    <div class="portfolio-info">
-      <h4>Media 2</h4>
-      <p>Short Film Competition under the Proud Thai Project</p>
-      <a href="https://drive.google.com/file/d/131bV8q3HvT165GVgLRxm7jfMRZyOG44v/preview"
-        title='Short Film Project: Proud Thai
-This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity", invites youth and students to explore Thai identity through storytelling. With the central theme of the Thai smile, the project aims to promote cultural understanding, emotional connection, and social harmony—starting from a simple but powerful smile.'
-        data-gallery="portfolio-gallery-book" class="glightbox preview-link">
-        <i class="bi bi-zoom-in"></i>
-      </a>
-      <a href="https://www.canva.com/design/DAGnEyIeOuc/zHDWfUggIE7ZIOYufzyvgQ/view?utm_content=DAGnEyIeOuc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9f51eefb50"
-        title="More Details" class="details-link">
-        <i class="bi bi-link-45deg"></i>
-      </a>
-    </div>
-  </div>
-</div><!-- End Portfolio Item -->
+              <div class="portfolio-content h-100">
+                <div
+                  style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 0.5rem;">
+                  <iframe class="img-fluid"
+                    src="https://drive.google.com/file/d/131bV8q3HvT165GVgLRxm7jfMRZyOG44v/preview"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen>
+                  </iframe>
+                </div>
+                <div class="portfolio-info">
+                  <h4 data-i18n="portfolio_media2_title">Media 2</h4>
+                  <p data-i18n="portfolio_media2_desc">Short Film Competition under the Proud Thai Project</p>
+                  <a href="https://drive.google.com/file/d/131bV8q3HvT165GVgLRxm7jfMRZyOG44v/preview"
+                    data-i18n-title="portfolio_media2_alt" title="Short Film Project: Proud Thai [...]"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="https://www.canva.com/design/DAGnEyIeOuc/zHDWfUggIE7ZIOYufzyvgQ/view?utm_content=DAGnEyIeOuc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9f51eefb50"
+                    title="More Details" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
 
 
 
@@ -808,8 +788,9 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
     <!-- Contact Section -->
     <section id="contact" class="contact section bg-light">
       <div class="container section-title text-center" data-aos="fade-up">
-        <h2 style="color: #754E1A;">Contact</h2>
-        <p class="text-muted">Get in touch for collaborations, opportunities, or just to say hello!</p>
+        <h2 style="color: #754E1A;" data-i18n="contact_title">Contact</h2>
+        <p class="text-muted" data-i18n="contact_subtitle">Get in touch for collaborations, opportunities, or just to
+          say hello!</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -821,7 +802,7 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
               <div class="info-item d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-telephone fs-3 me-3" style="color: #754E1A;"></i>
                 <div>
-                  <h5 class="mb-1" style="color: #A4907C;">Call</h5>
+                  <h5 class="mb-1" style="color: #A4907C;" data-i18n="contact_call">Call</h5>
                   <p class="mb-0">+66 9719 41544</p>
                 </div>
               </div>
@@ -829,7 +810,7 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
               <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-envelope fs-3 me-3" style="color: #754E1A;"></i>
                 <div>
-                  <h5 class="mb-1" style="color: #A4907C;">Email</h5>
+                  <h5 class="mb-1" style="color: #A4907C;" data-i18n="contact_email">Email</h5>
                   <p class="mb-0">nunnapat.tung@gmail.com</p>
                 </div>
               </div>
@@ -843,31 +824,32 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
               <div class="row gy-3">
 
                 <div class="col-md-6">
-                  <label for="name-field" class="form-label">Your Name</label>
+                  <label for="name-field" class="form-label" data-i18n="form_name">Your Name</label>
                   <input type="text" name="name" id="name-field" class="form-control" required>
                 </div>
 
                 <div class="col-md-6">
-                  <label for="email-field" class="form-label">Your Email</label>
+                  <label for="email-field" class="form-label" data-i18n="form_email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email-field" required>
                 </div>
 
                 <div class="col-md-12">
-                  <label for="subject-field" class="form-label">Subject</label>
+                  <label for="subject-field" class="form-label" data-i18n="form_subject">Subject</label>
                   <input type="text" class="form-control" name="subject" id="subject-field" required>
                 </div>
 
                 <div class="col-md-12">
-                  <label for="message-field" class="form-label">Message</label>
+                  <label for="message-field" class="form-label" data-i18n="form_message">Message</label>
                   <textarea class="form-control" name="message" rows="6" id="message-field" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center mt-3">
-                  <div class="loading">Loading...</div>
-                  <div class="error-message text-danger"></div>
-                  <div class="sent-message text-success">Your message has been sent. Thank you!</div>
+                  <div class="loading" data-i18n="form_loading">Loading...</div>
+                  <div class="error-message text-danger" data-i18n="form_error"></div>
+                  <div class="sent-message text-success" data-i18n="form_sent">Your message has been sent. Thank you!
+                  </div>
 
-                  <button type="submit" class="btn btn-custom mt-3">Send Message</button>
+                  <button type="submit" class="btn btn-custom mt-3" data-i18n="form_button">Send Message</button>
                 </div>
 
               </div>
@@ -900,11 +882,20 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
+  <!-- Preloader -->
   <div id="preloader">
-    <div class="loader"></div>
-    <div class="loader"></div>
-    <div class="loader"></div>
+    <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+      <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20"
+        stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20"
+        stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20"
+        stroke-dasharray="0 440" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20"
+        stroke-dasharray="0 440" stroke-linecap="round"></circle>
+    </svg>
   </div>
+
 
 
 
@@ -922,6 +913,83 @@ This short film competition, titled "Proud Thai: Smile, Heritage, and Creativity
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- POPUP -->
+  <!-- Language Popup -->
+  <div id="language-popup" style="
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  font-family: 'Segoe UI', sans-serif;
+">
+    <div style="
+    background: #ffffff;
+    padding: 32px 48px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 320px;
+    width: 90%;
+    animation: fadeIn 0.4s ease;
+  ">
+      <h2 style="margin-bottom: 24px; font-size: 20px; color: #333;">
+        🌐 Select Language / เลือกภาษา
+      </h2>
+      <div style="display: flex; justify-content: space-between; gap: 12px;">
+        <button id="lang-en" style="
+        flex: 1;
+        padding: 10px 0;
+        border: none;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        color: #333;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      " onmouseover="this.style.backgroundColor='#e0e0e0'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+          English
+        </button>
+        <button id="lang-th" style="
+        flex: 1;
+        padding: 10px 0;
+        border: none;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        color: #333;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      " onmouseover="this.style.backgroundColor='#e0e0e0'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+          ภาษาไทย
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fade In Animation -->
+  <style>
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+
+
+  <!-- Language Switch Script -->
+  <script src="assets/js/lang-switch.js"></script>
+
 
 </body>
 

@@ -1,0 +1,160 @@
+
+{
+  "menu_home": "Home",
+  "menu_about": "About",
+  "menu_resume": "Resume",
+  "menu_portfolio": "Portfolio",
+  "menu_contact": "Contact",
+
+  "hero_firstname": "Nunnapat",
+  "hero_lastname": "Tungjaingamsanga",
+  "hero_intro": "I'm looking for ",
+  "hero_typed_items": " Creative Content, Account Executive, Strategic Planner",
+
+  "about_title": "About",
+  "about_intro": "My name is Nunnapat Tungjaingamsanga (Patt), 23 years old. I graduated with a Bachelor’s degree in Communication Arts, majoring in Brand Communications. I am passionate about branding and integrated marketing, with foundational skills in strategic communication planning, consumer behavior analysis, and online brand image creation.",
+
+  "about_heading": "Brand Communication, Faculty Communication Arts",
+  "about_university": "Bangkok University",
+  "label_birthday": "Birthday:",
+  "value_birthday": "16 April 2002:",
+  "label_phone": "Phone:",
+  "label_city": "City:",
+  "value_city": "Nonthaburi , 11000",
+  "label_age": "Age:",
+  "label_degree": "Degree:",
+  "value_degree": "Bachelor",
+  "label_email": "Email:",
+  "label_freelance": "Freelance:",
+  "value_freelance": "Available",
+  "about_quote": "I am deeply committed to building a career in marketing and branding because I believe that successful marketing goes beyond promoting products — it’s about understanding people, creating value, and telling stories that resonate.",
+
+  "resume_title": "Resume",
+  "resume_intro": "A brief overview of my educational background, work experience, and extracurricular activities — showcasing my journey and passions.",
+
+  "education_title": "Education",
+
+  "edu_bu_title": "Bangkok University",
+  "edu_bu_period": "2020 - 2023 | Pathum Thani 12120",
+  "edu_bu_degree": "Bachelor's Degree in Communication Arts",
+  "edu_bu_note": "Brand Communication (First Honor)",
+
+  "edu_swn_title": "Suankularb Wittayalai Nonthaburi",
+  "edu_swn_period": "2014 - 2020 | Nonthaburi 11120",
+  "edu_swn_program": "Math - English",
+
+  "work_title": "Work Experience",
+  "work_thorfun_title": "Thorfun Music and Dance School",
+  "work_thorfun_period": "2018 - 2021",
+  "work_thorfun_position": "Reception and Admin (Part-Time)",
+  "work_thorfun_duty1": "Designed promotional materials and coordinated public relations for school events.",
+  "work_thorfun_duty2": "Managed class scheduling and supported client communications.",
+
+  "work_makro_title": "Siam Makro - Sanambinnam Branch",
+  "work_makro_period": "Jan 2024 - Mar 2024",
+  "work_makro_position": "Bakery",
+  "work_makro_duty1": "Handled customer service, order management, and gained exposure to corporate retail operations.",
+
+  "activity_title": "Extracurricular Activities",
+  "activity_alaska_title": "Great Alaskan Holidays, Inc.",
+  "activity_alaska_period": "May 2024 - Sep 2024",
+  "activity_alaska_position": "Housekeeper",
+  "activity_alaska_duty1": "Participated in the \"Work and Travel USA\" program during Summer 2024.",
+
+  "label_position": "Position:",
+
+  "skills_title": "Skills",
+  "skill_branding": "Branding & Identity",
+  "skill_planning": "Strategic Planning",
+  "skill_communication": "Communication Skills",
+  "skill_thinking": "Critical Thinking",
+  "skill_marketing": "Marketing Communication",
+  "skill_research": "Research",
+  "skill_analysis": "Data Analysis",
+  "skill_visualization": "Data Visualization",
+  "skill_time": "Time Management",
+  "skill_teamwork": "Leadership , Teamwork",
+  "level_expert": "Expert",
+  "level_proficient": "Proficient",
+  "level_basic": "Basic",
+
+  "language_title": "Language",
+  "language_thai": "THAI",
+  "language_thai_level": "Fluent",
+  "language_english": "ENGLISH",
+  "language_english_level": "Basic",
+
+  "portfolio_title": "Portfolio",
+  "portfolio_description": "This portfolio showcases a well-rounded skill set in creative media design, spanning across Event, Product, Branding, Media, and Logo Design. It highlights strengths in conceptual thinking, creativity, visual composition, and effective brand communication.",
+
+  "filter_all": "All",
+  "filter_event": "Event",
+  "filter_product": "Product",
+  "filter_branding": "Branding",
+  "filter_media": "Media",
+  "filter_logo": "Logo",
+
+  "portfolio_event1_title": "Event 1",
+  "portfolio_event1_desc": "Organized the seminar “พลิกหลังกล่อง ส่องหลังแบรนด์ INGU” in collaboration with INGU และ คุณอื๊ง พลิกหลังกล่อง",
+  "portfolio_event1_alt": "Collaborated in planning and organizing a seminar on marketing and branding, taking responsibility for public relations, media design, and coordination with guest speakers. Successfully attracted over 150 participants and received positive feedback from attendees.",
+
+  "portfolio_logo4_title": "Logo 4",
+  "portfolio_logo4_desc": "Join Program Desing Logo APHEIT , Designed with Adobe Illustrator",
+
+  "portfolio_event2_title": "Event 2",
+  "portfolio_event2_desc": "Organized the event “Send to Full Sense” in collaboration with CTRL G.",
+  "portfolio_event2_alt": "Coordinated with the CTRL G team and external partners to organize both online and offline events. Took charge of public relations and designed promotional materials for social media platforms. Successfully attracted over 250 participants and received widespread positive engagement from gaming fans and esports players.",
+
+  "portfolio_product1_title": "Product 1",
+  "portfolio_product1_desc": "Mockups Brand FIVEPER%",
+
+  "portfolio_branding1_title": "Branding 1",
+  "portfolio_branding1_desc": "Lhong Lai Project",
+  "portfolio_branding1_alt": "Brand Overview: Building the “Lhong Lai Dimsum & Kopi” Brand\n\n“Lhong Lai Dimsum & Kopi” is a café-style dim sum brand crafted through a creative brand-building process that blends traditional Chinese cuisine with Thai cultural elements, offering a nostalgic, warm, and detail-oriented dining atmosphere.\n\nThe brand is positioned to be modern yet sentimental, evoking warmth, retro charm, and a heartfelt passion for flavor and experience — connecting with the new generation of consumers who seek more than just food.\n\n🎯 Brand Building Objectives\n\nEstablish a strong and unique position in a dim sum market with few direct competitors\nCommunicate a brand image that is warm, charming, and distinct\nPrioritize brand experience as the core of customer engagement\nMeet the expectations of modern consumers who value taste, atmosphere, and attention to detail\n\n🧬 Brand DNA\n\n“Authentic Cantonese dim sum fused with Thai ingredients — served 24/7”\nA harmony of Chinese heritage, Thai craftsmanship, and café lifestyle\n\n💡 Key Brand Strengths\n\nEvokes a feeling of “Lhong Lai” (deep fondness) through food, ambiance, and service\nClear and consistent brand identity through logo, colors, font, and packaging\nEmploys storytelling and experience-based marketing\nOffers a membership and point-collection system to build long-term loyalty\nDesigned for future brand expansion and franchising opportunities\n\n✨\n\nLhong Lai is not just a dim sum restaurant — it’s a brand crafted to make people “fall in love from the very first bite,” backed by thoughtful branding, clear strategy, and memorable customer experiences at every touchpoint.",
+
+  "portfolio_product2_title": "Product 2",
+  "portfolio_product2_desc": "Mockups Brand FIVEPER%",
+
+  "portfolio_branding2_title": "Branding 2",
+  "portfolio_branding2_desc": "Chaweewan Project",
+  "portfolio_branding2_alt": "Chawaveewan: Elevating Thai Natural Heritage through Creative Design\n\nChawaveewan is a creative wellness brand that transforms natural loofah fibers — a traditional Thai material — into innovative self-care products by integrating them with bath bombs, creating a unique 2-in-1 bathing experience.\n\nThis product addresses consumer pain points by softening the loofah through the fizzing process, adding convenience and indulgence at the same time. The result is a functional and sensorial product that not only cleanses but relaxes.\n\nBy applying design thinking and cultural storytelling, Chawaveewan enhances the value of an everyday natural item through:\n\nThoughtful product design\nSensory branding through Thai-inspired scents\nElegant, locally handcrafted packaging\nCo-branding opportunities with spas and hotels\n\nThe brand represents a modern reinterpretation of Thai identity and sustainability, creating new market opportunities for traditional materials while supporting local craftsmanship and eco-conscious lifestyles.",
+
+  "portfolio_product3_title": "Product 3",
+  "portfolio_product3_desc": "Mockups Brand CHAWEEWAN",
+
+  "portfolio_product4_title": "Product 4",
+  "portfolio_product4_desc": "Mockups Brand LHONG LAI",
+
+  "portfolio_branding3_title": "Branding 3",
+  "portfolio_branding3_desc": "Back Street House Project",
+  "portfolio_branding3_alt": "This project serves as a comprehensive example of brand analysis — covering everything from strategic planning, brand communication, to consumer behavior insights. All elements work together to support the goal of expanding the customer base and strengthening the brand identity of Backstreet House Pattaya in the specialty coffee market.",
+
+  "portfolio_logo1_title": "Logo 1",
+  "portfolio_logo1_desc": "Mockups Logo Brand LHONG LAI",
+
+  "portfolio_logo3_title": "Logo 3",
+  "portfolio_logo3_desc": "Mockups Logo Brand FIVEPRE%",
+
+  "portfolio_media1_title": "Media 1",
+  "portfolio_media1_desc": "Organize a series of influencer interviews to gain insights into their views on emerging digital trends and branding strategies.",
+
+  "portfolio_product5_title": "Product 5",
+  "portfolio_product5_desc": "Mockups Brand CHAWEEWAN",
+
+  "portfolio_media2_title": "Media 2",
+  "portfolio_media2_desc": "Short Film Competition under the Proud Thai Project",
+  "portfolio_media2_alt": "Short Film Project: Proud Thai\nThis short film competition, titled \"Proud Thai: Smile, Heritage, and Creativity\", invites youth and students to explore Thai identity through storytelling. With the central theme of the Thai smile, the project aims to promote cultural understanding, emotional connection, and social harmony—starting from a simple but powerful smile.",
+
+  "contact_title": "Contact",
+  "contact_subtitle": "Get in touch for collaborations, opportunities, or just to say hello!",
+  "contact_call": "Call",
+  "contact_email": "Email",
+  "form_name": "Your Name",
+  "form_email": "Your Email",
+  "form_subject": "Subject",
+  "form_message": "Message",
+  "form_loading": "Loading...",
+  "form_error": "There was an error. Please try again.",
+  "form_sent": "Your message has been sent. Thank you!",
+  "form_button": "Send Message"
+}
